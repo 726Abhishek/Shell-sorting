@@ -147,10 +147,6 @@ void print()
 
 int main()
 {
-    cout<<"NAME     : Abhishek Rana"<<endl;
-    cout<<"ROLL_NO. : 1706386 "<<endl;
-    cout<<"CLASS    : CSE-A1  "<<endl;
-    cout<<"----------------------------------------"<<endl<<endl;
     head = &first;
     first.value=3; first.ptr=&second;
     second.value=5; second.ptr=&third;
